@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Master dropshipping: practical course, step-by-step, start with zero inventory. Responsive landing page." />
+  <meta name="keywords" content="dropshipping, e-commerce, course, online training" />
+  <title>Dropship Accelerator — Practical Dropshipping Course</title>
+
+  <meta property="og:title" content="Dropship Accelerator — Practical Dropshipping Course" />
+  <meta property="og:description" content="Launch your own dropshipping store: product research, store setup, ads, scaling. Enrollment open." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">DS</div>
+        <div>
+          <div class="lang-ar" style="font-weight:800">Dropship Accelerator</div>
+          <div class="lang-en hidden" style="font-weight:800">Dropship Accelerator</div>
+          <div class="lang-ar" style="font-size:12px;color:var(--muted)">دورة عملية في الدروبشيبينغ</div>
+          <div class="lang-en hidden" style="font-size:12px;color:var(--muted)">Practical dropshipping course</div>
+        </div>
+      </div>
+      <nav>
+        <a class="lang-ar" href="#about">حول الدورة</a>
+        <a class="lang-en hidden" href="#about">About</a>
+        <a class="lang-ar" href="#modules">الوحدات</a>
+        <a class="lang-en hidden" href="#modules">Modules</a>
+        <a class="lang-ar" href="#trainer">المدرب</a>
+        <a class="lang-en hidden" href="#trainer">Trainer</a>
+        <a class="cta lang-ar" href="#signup">سجل الآن</a>
+        <a class="cta lang-en hidden" href="#signup">Enroll Now</a>
+      </nav>
+      <button id="langToggle" class="toggle-btn lang-ar">English</button>
+      <button id="langToggleEn" class="toggle-btn lang-en hidden">العربية</button>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="badges">
+          <div class="badge lang-ar">مبتدئ → محترف</div>
+          <div class="badge lang-en hidden">Beginner → Pro</div>
+          <div class="badge lang-ar">6 أسابيع</div>
+          <div class="badge lang-en hidden">6 Weeks</div>
+          <div class="badge lang-ar">بث مباشر + مسجل</div>
+          <div class="badge lang-en hidden">Live + Recording</div>
+        </div>
+
+        <h1 class="lang-ar">أطلق وطوّر متجر دروبشيبينغ مُربح</h1>
+        <h1 class="lang-en hidden">Launch & Scale a Profit-Generating Dropshipping Store</h1>
+        
+        <p class="lead lang-ar">تدريب خطوة بخطوة: بحث المنتج، إعداد المتجر، مسارات الإعلانات، والتوسع — لا يتطلب مخزونًا. مهام عملية وقوالب ودراسات حالة حقيقية.</p>
+        <p class="lead lang-en hidden">Step-by-step training: product research, store setup, ad funnels, and scaling — no inventory required. Practical tasks, templates, and real case studies.</p>
+        
+        <ul style="color:var(--muted);margin-top:12px">
+          <li class="lang-ar">مهام أسبوعية قابلة للتطبيق</li>
+          <li class="lang-en hidden">Actionable weekly tasks</li>
+          <li class="lang-ar">قوالب وإعلانات إبداعية</li>
+          <li class="lang-en hidden">Templates & ads creatives</li>
+          <li class="lang-ar">مجتمع خاص للطلاب</li>
+          <li class="lang-en hidden">Private student community</li>
+        </ul>
+
+        <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="cta lang-ar" href="#signup">احجز مكانك</a>
+          <a class="cta lang-en hidden" href="#signup">Reserve Your Spot</a>
+          <a href="#testimonials" class="lang-ar" style="text-decoration:none;padding:10px 14px;border-radius:8px;border:1px solid #e6e9ef;color:var(--muted)">شاهد الشهادات</a>
+          <a href="#testimonials" class="lang-en hidden" style="text-decoration:none;padding:10px 14px;border-radius:8px;border:1px solid #e6e9ef;color:var(--muted)">See Testimonials</a>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card" id="signup">
+          <h3 class="lang-ar" style="margin-top:0">احجز مكانك الآن</h3>
+          <h3 class="lang-en hidden" style="margin-top:0">Secure your spot</h3>
+          <p class="lang-ar" style="color:var(--muted)">أدخل اسمك وبريدك الإلكتروني — سنتواصل معك بشأن الخطوات التالية.</p>
+          <p class="lang-en hidden" style="color:var(--muted)">Enter your name and email — we'll contact you with next steps.</p>
+          <form id="leadForm" action="send.php" method="POST">
+    <input type="text" name="name" id="name" placeholder="الاسم الكامل / Full name" required />
+    <div style="height:10px"></div>
+
+    <input type="email" name="email" id="email" placeholder="البريد الإلكتروني / Email address" required />
+    <div style="height:10px"></div>
+
+    <!-- زر اللغة العربية -->
+    <button type="submit" class="lang-ar">الحصول على الدخول</button>
+
+    <!-- زر اللغة الإنجليزية -->
+    <button type="submit" class="lang-en hidden">Get access</button>
+
+    <div id="formMsg" style="margin-top:12px;color:var(--muted);font-size:14px"></div>
+</form>
+
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="card" style="margin-top:14px">
+      <h2 class="lang-ar" style="margin-top:0">حول الدورة</h2>
+      <h2 class="lang-en hidden" style="margin-top:0">About the course</h2>
+      <p class="lang-ar" style="color:var(--muted)">تعلّم مسار الدروبشيبينغ بالكامل: اختيار المنتجات الرابحة، بناء متجر عالي التحويل، تشغيل الإعلانات (فيسبوك/إنستغرام/جوجل)، تحسين تحويلات المتجر والتوسع بربحية.</p>
+      <p class="lang-en hidden" style="color:var(--muted)">This course teaches you the full dropshipping funnel: selecting winning products, building a high-converting store, running ads (Facebook/Instagram/Google), optimizing store conversions and scaling profitably.</p>
+      <div class="grid">
+        <div class="feature card">
+          <h3 class="lang-ar">منهج أسبوعي</h3>
+          <h3 class="lang-en hidden">Week-by-week syllabus</h3>
+          <p class="lang-ar">وحدات عملية مع قوالب ومهام.</p>
+          <p class="lang-en hidden">Hands-on modules with templates and tasks.</p>
+        </div>
+        <div class="feature card">
+          <h3 class="lang-ar">قوالب ومحتوى إبداعي</h3>
+          <h3 class="lang-en hidden">Templates & Creatives</h3>
+          <p class="lang-ar">نصوص إعلانية، ومحتوى إبداعي، وقوالب متجر يمكنك إعادة استخدامها.</p>
+          <p class="lang-en hidden">Ad copy, creatives, and store templates you can reuse.</p>
+        </div>
+        <div class="feature card">
+          <h3 class="lang-ar">دعم الطلاب</h3>
+          <h3 class="lang-en hidden">Student Support</h3>
+          <p class="lang-ar">مجموعة مجتمعية، أسئلة وأجوبة أسبوعية وساعات مكتبية.</p>
+          <p class="lang-en hidden">Community group, weekly Q&A and office hours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trainer" class="two">
+      <div class="card trainer">
+        <img src="https://3.bp.blogspot.com/-_oofQiLjaI8/W2mouhPZXkI/AAAAAAABXj0/mRiOedr1bFUIi5MLZfglp53i1cEydHy7QCLcBGAs/s1600/13.jpg.4cbe499c45618f176d5aea2b8d599da2.jpg" alt="Trainer" />
+        <div>
+          <h3 style="margin:0">Ahmed El-Sayed</h3>
+          <p class="lang-ar" style="color:var(--muted);margin:6px 0">خبير تجارة إلكترونية. 5+ سنوات في بناء متاجر مربحة وتدريب +100 طالب.</p>
+          <p class="lang-en hidden" style="color:var(--muted);margin:6px 0">E-commerce expert. 5+ years building profitable stores and training +100 students.</p>
+          <a href="#signup" class="cta lang-ar" style="display:inline-block;margin-top:8px">انضم للفوج</a>
+          <a href="#signup" class="cta lang-en hidden" style="display:inline-block;margin-top:8px">Join cohort</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="testi">
+          <div class="stars">★★★★★</div>
+          <p class="lang-ar" style="margin:8px 0;font-weight:700">"عملي، بدون حشو — أطلقت متجري الأول في أسبوعين."</p>
+          <p class="lang-en hidden" style="margin:8px 0;font-weight:700">"Practical, no fluff — I launched my first store in 2 weeks."</p>
+          <p style="color:var(--muted);margin:0">— Lina, student</p>
+        </div>
+
+        <div class="testi" style="margin-top:12px">
+          <div class="stars">★★★★★</div>
+          <p class="lang-ar" style="margin:8px 0;font-weight:700">"قوالب رائعة + أمثلة إعلانات، وفرت عليّ أشهر من التجربة."</p>
+          <p class="lang-en hidden" style="margin:8px 0;font-weight:700">"Great templates + ad examples, saved me months of trial."</p>
+          <p style="color:var(--muted);margin:0">— Omar, student</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:20px">
+      <h3 class="lang-ar" style="margin-top:0">لماذا هذه الدورة؟</h3>
+      <h3 class="lang-en hidden" style="margin-top:0">Why this course?</h3>
+      <ul style="color:var(--muted)">
+        <li class="lang-ar">مصممة للمبتدئين والمتوسطين</li>
+        <li class="lang-en hidden">Designed for beginners and intermediates</li>
+        <li class="lang-ar">مهام عملية وأمثلة حقيقية</li>
+        <li class="lang-en hidden">Practical tasks and real examples</li>
+        <li class="lang-ar">قوالب قابلة للتطبيق يمكنك إعادة استخدامها</li>
+        <li class="lang-en hidden">Actionable templates you can reuse</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+        <div style="color:var(--muted)">© Dropship Accelerator</div>
+        <div class="lang-ar" style="color:var(--muted)">بنيت للإطلاق السريع — متجاوبة وجاهزة للسيو</div>
+        <div class="lang-en hidden" style="color:var(--muted)">Built for quick launch — responsive & SEO-ready</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
