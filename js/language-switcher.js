@@ -80,10 +80,10 @@ const translations = {
         contact_email: "البريد الإلكتروني: info@dropshipping-course.com",
         contact_phone: "الهاتف: +1234567890",
         contact_address: "العنوان: مدينة، دولة",
-        facebook: "فيسبوك",
-        twitter: "تويتر",
-        instagram: "انستجرام",
-        youtube: "يوتيوب",
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        youtube: "",
         copyright: "جميع الحقوق محفوظة © 2023 دورة الدروبشيبنج"
     },
     en: {
@@ -166,10 +166,10 @@ const translations = {
         contact_email: "Email: info@dropshipping-course.com",
         contact_phone: "Phone: +1234567890",
         contact_address: "Address: City, Country",
-        facebook: "Facebook",
-        twitter: "Twitter",
-        instagram: "Instagram",
-        youtube: "YouTube",
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        youtube: "",
         copyright: "All Rights Reserved © 2023 Dropshipping Course"
     }
 };
@@ -245,4 +245,5 @@ class LanguageSwitcher {
 // Initialize language switcher when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new LanguageSwitcher();
+
 });
